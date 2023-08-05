@@ -31,7 +31,8 @@ def most_common_words(file_name, words_to_exclude=[]):
     return most_common_words
 
 if __name__ == '__main__':
-    words_to_exclude = ['de','a','que','o','em','é','um','para','e','uma','do','você','por','os','mais','com','$','-','da','no','se','não','as','eu','ou','dos','na','como','são','está','muito','mas','isso','ao','Agora,','nos','das','apenas','cada','Então,','sobre','sua','anos','seu','foi','vamos','ser','Bem,','até','cerca','pode','há','tem','seus','100','quando','dois','três','menos','esse','ano']  # List of words to be excluded
+    # List of words to be excluded
+    words_to_exclude = ['de','a','que','o','em','é','um','para','e','uma','do','você','por','os','mais','com','$','-','da','no','se','não','as','eu','ou','dos','na','como','são','está','muito','mas','isso','ao','Agora,','nos','das','apenas','cada','Então,','sobre','sua','anos','seu','foi','vamos','ser','Bem,','até','cerca','pode','há','tem','seus','100','quando','dois','três','menos','esse','ano']  
     most_common_words = most_common_words('Business.txt', words_to_exclude)
 
     # Imprime as 20 palavras mais repetidas.
